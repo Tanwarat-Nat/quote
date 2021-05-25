@@ -7,3 +7,7 @@ func Say() string {
 func Speak() string {
 	return "Hi, mate."
 }
+
+func Talk() string {
+	return "Gopher!"
+}

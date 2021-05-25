@@ -15,3 +15,10 @@ func TestSpeak(t *testing.T) {
 		t.Errorf("Speak() = %q, want : %q", got, want)
 	}
 }
+
+func TestTalk(t *testing.T) {
+	want := "Gopher!"
+	if got := Talk(); got != want {
+		t.Errorf("Talk() = %q, want : %q", got, want)
+	}
+}
